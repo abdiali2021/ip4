@@ -54,11 +54,13 @@ $('#checkout').on('click', () => {
 
 
 
-//     alert("Thank you " + name + "! Your order has been confirmed, Thank you .");
-//     document.getElementById("").reset();
+    alert("Thank you " + name + "! Your order has been confirmed, Thank you .");
+    document.getElementById("").reset();
 
-// $(document).ready(function () {
-// document.getElementById("form").addEventListener("submit", popUp);
-// function popUp() {
-//     alert("Your order is will be with you in 40 mins. Thank you for choosing us")
-// }
+$(document).ready(function () {
+document.getElementById("form").addEventListener("submit", popUp);
+function popUp() {
+    alert("Your order is will be with you in 40 mins. Thank you for choosing us")
+}
+})
+    
