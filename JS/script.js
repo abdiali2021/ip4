@@ -8,7 +8,7 @@ const prices = {
     large: 1200
 }
 let total = 0;
-
+var hello;
 
 $("form").submit(function(event){
     event.preventDefault()
